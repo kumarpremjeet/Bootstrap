@@ -5,7 +5,7 @@
   font-size: 1rem;
   color: white;
   background-color: rgb(255, 103, 15);
-  padding: 0.5% 0.7%;
+  padding: 0.9% 1.1%;
   border-radius: 50%;
   z-index: 1;
 }
@@ -137,6 +137,13 @@
   color: rgb(255, 103, 15);
   font-size: 3.5rem;
 }
+.storyImg {
+  transition: 10s;
+  overflow: hidden;
+}
+.storyImg:hover img {
+  transform: scale(1.05);
+}
 
 /* our intension csss */
 .bg-image {
@@ -244,5 +251,69 @@
   }
   .input {
     margin-top: 0;
+  }
+}
+
+/* about session css */
+.back-img {
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/24/13/37/architecture-2256489_960_720.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.subcontainer-fluid {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.gray {
+  color: #b2bbc0;
+}
+.fa-bars {
+  font-size: 2rem;
+  color: white;
+  padding: 5%;
+  border-radius: 50%;
+  background-color: rgb(255, 103, 15);
+}
+.fa-desktop {
+  font-size: 2rem;
+  color: white;
+  padding: 5%;
+  border-radius: 50%;
+  background-color: rgb(255, 103, 15);
+}
+.fa-book-reader {
+  font-size: 2rem;
+  color: white;
+  padding: 5%;
+  border-radius: 50%;
+  background-color: rgb(255, 103, 15);
+}
+/* blog page css */
+.posterBlog {
+  height: 400px;
+  background-color: rgb(24, 24, 32);
+}
+.overflow {
+  overflow: hidden;
+}
+.cardBlog {
+  background-color: white;
+
+  box-shadow: 0 0 5px rgb(219, 213, 213);
+}
+.Bloghead {
+  font-size: 1.5rem;
+  padding: 5%;
+  color: rgb(54, 52, 66);
+  background-color: rgb(255, 126, 51);
+  margin: 6%;
+  border-radius: 10px;
+}
+@media (max-width: 990px) {
+  .posterBlog {
+    height: 530px;
   }
 }
